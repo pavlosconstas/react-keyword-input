@@ -1,6 +1,6 @@
 {
   "name": "react-keyword-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A quick flexable keyword input system. Updates an object with a keywords array that contains keywords entered by the user.",
   "author": "Pavlos Constas <pconstasm@gmail.com>",
   "license": "MIT",
