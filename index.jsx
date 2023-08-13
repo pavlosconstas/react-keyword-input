@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-function KeywordInput(keywordObject, setKeywordObject, style = {}, showValues = true) {
+function KeywordInput({keywordObject, setKeywordObject, style = {}, showValues = true}) {
   const textareaRef = useRef();
 
   useEffect(() => {
@@ -52,10 +52,9 @@ function KeywordInput(keywordObject, setKeywordObject, style = {}, showValues = 
 
   return (
     <div>
-      <textarea
+      <input
         ref={textareaRef}
         placeholder="Enter comma-separated keywords and press Enter"
-        rows={4}
         style={style}
       />
       <div>
