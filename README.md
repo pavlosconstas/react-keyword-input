@@ -15,6 +15,7 @@ and pass in a *useState* hook to the component.
 Other values that can be passed in are *style={}* which is an object that dictates the styling of the input component, and *showValues=false* which dictates whether the array be printed underneath the input field.
 ```jsx
 import React, {useState} from 'react';
+import KeywordInput from 'react-keyword-input';
 
 function App() {
     const [keywords, setKeywords] = { 
